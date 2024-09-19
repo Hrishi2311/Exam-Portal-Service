@@ -1,0 +1,24 @@
+.truncate
+{
+display: block;
+white-space: nowrap;
+width: 100%;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.example-header-image {
+background-image: url('../../../../assets/ssss.jpg');
+background-size: cover;
+
+}
+.head
+{
+margin-top: 20px;
+font-weight: 600;
+}
+.mat-card
+{
+margin-top: 10px;
+margin-bottom: 20px;
+
+}

@@ -1,0 +1,11 @@
+.margin{
+    margin-top: 10px;
+}
+.example-header-image {
+    background-image: url('../../../../assets/quiz.png');
+    background-size: cover;
+  }
+  .margin11{
+    margin-right: 10px;
+    margin-left: 10px;
+  }

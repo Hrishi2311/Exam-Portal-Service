@@ -1,0 +1,20 @@
+<mat-card>
+
+    <mat-action-list>
+
+        <div mat-subheader>Available Categories</div>
+        <button mat-list-item style="display: flex; align-items: center;" routerLink="/user-dashboard/0"><mat-icon fontIcon="quizzes"
+                style="margin-right: 8px;"></mat-icon><span style="font-size: 16px; font-weight: 500;">All Quiz</span>
+        </button>
+        <!-- <button mat-list-item style="display: flex; align-items: center;"><mat-icon fontIcon="home"
+                style="margin-right: 8px;"></mat-icon><span style="font-size: 16px; font-weight: 500;">Profile</span>
+        </button> -->
+        
+        <button mat-list-item style="display: flex; align-items: center;" *ngFor="let c of categories" [routerLink]="'/user-dashboard/'+c.cid"><mat-icon fontIcon="quiz"
+            style="margin-right: 8px;"></mat-icon><span style="font-size: 16px; font-weight: 500;"> {{c.title}}  </span>
+    </button>
+    </mat-action-list>
+
+</mat-card>
+
+<!-- {{categories|json}} -->

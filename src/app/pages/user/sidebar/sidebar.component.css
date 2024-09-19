@@ -1,0 +1,11 @@
+.mat-icon {
+    font-size: 24px; /* Adjust based on your design */
+    line-height: 20px; /* Ensure this matches the icon size */
+    vertical-align: middle;
+    
+ }
+
+ .mat-icon {
+    position: relative; /* Makes sure it aligns according to its container */
+  }
+  

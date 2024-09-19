@@ -1,0 +1,46 @@
+/* mat-card {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+mat-list-item {
+  align-items: flex-start;
+}
+
+hr {
+  margin-top: 8px;
+  width: 100%;
+  border: none;
+  border-top: 1px solid black;
+} */
+
+.profile-image{
+max-width: 90px;
+max-height: 200px;
+border: 2px solid black;
+border-radius: 50%;
+}
+.profile-name{
+  margin-top: 10px;
+}
+.table{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+.table tr td{
+  padding: 15px 10px;
+  border: 0.5px solid #e2e2e2;
+  border-collapse: collapse;  
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Optional: space between buttons */
+  margin-top: 10px;
+  
+}

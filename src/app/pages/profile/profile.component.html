@@ -1,0 +1,55 @@
+<mat-card>
+    <h1 style="margin-left: 10px; margin-top: 10px;">Your Profile Details</h1>
+    <mat-card-content>
+
+        <div class="bootstrap-wrapper">
+            <div class="container">
+
+                <div class="container text-center">
+
+                    <img src="../../../assets/images.png" alt="logo" class="profile-image">
+    
+                    <h1 class="profile-name">{{User.fName}} {{User.lname}} </h1>
+    
+    
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <table class="table">
+                            <tr>
+                                <td>Username</td>
+                                <td>{{User.username}}</td>
+                            </tr>
+                            <tr>
+                                <td>Userid</td>
+                                <td>EXAM{{User.id}}</td>
+                            </tr>
+                            <tr>
+                                <td>Phone</td>
+                                <td>{{User.phone}}</td>
+                            </tr>
+                            <tr>
+                                <td>Role</td>
+                                <td>{{User.authorities[0].authority}}</td>
+                            </tr>
+                            <tr>
+                                <td>Status</td>
+                                <td>{{User.enabled?"ACTIVE":"INACTIVE"}}</td>
+                            </tr>
+                        </table>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </mat-card-content>
+    <mat-card-actions class="button">
+        <button mat-raised-button color="primary">Update</button>
+        <button mat-raised-button color="accent">SHARE</button>
+    </mat-card-actions>
+</mat-card>
